@@ -8,9 +8,15 @@ html {
   color: #333333;
 }
 
+p {
+  margin: 0;
+}
+
 .body {
   position: relative;
-  width: 1440px;
+
+  width: 100%;
+  /*width: 1440px;*/
   /*margin: 0 auto;*/
 }
 
@@ -182,6 +188,11 @@ html {
   margin-bottom: 50px;
 }
 
+.survival__text {
+  position: relative;
+  top: 1px;
+}
+
 .articles {
   padding: 120px 0 120px;
   box-sizing: border-box;
@@ -192,6 +203,9 @@ html {
   margin-bottom: 120px;
 }
 .articles__h2 {
+  position: relative;
+  top: 1px;
+
   margin-bottom: 20px;
 }
 
@@ -201,13 +215,15 @@ html {
   justify-content: center;
 }
 .slider__arrow {
+  margin-top: 6px;
+
   cursor: pointer;
 }
 .slider__arrow_prev {
-  padding-right: 60px;
+  margin-right: 60px;
 }
 .slider__arrow_next {
-  padding-left: 60px;
+  margin-left: 60px;
 }
 .slider__list {
   display: flex;
@@ -269,6 +285,9 @@ html {
   border: 1px solid #666666;
   border-right: none;
   background: none;
+
+  font-size: 23px;
+  line-height: 27px;
 }
 .subscribe__email:focus {
   outline: none;
@@ -314,7 +333,16 @@ html {
   justify-content: space-between;
 }
 
+.footer__menu {
+  position: relative;
+  left: 7px;
+  width: 475px;
+}
+
 .social {
+  position: relative;
+  top: 3px;
+
   display: flex;
   align-items: center;
   justify-content: center;
